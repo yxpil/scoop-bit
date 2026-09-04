@@ -1,17 +1,20 @@
 {
-    "version": "0.5.2",
+    "version": "0.5.5",
     "description": "BIT - 本地优先的 AI Agent 工具集（MCP / 工具注册 / 技能）",
     "homepage": "https://github.com/yxpil/bit",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yxpil/bit/releases/download/v0.5.2/BIT_0.5.2_x64-portable.zip",
-            "hash": "7b8ee8bc4e6ab4e330bb045d5b53aebc9546e5324c66370d45230fde29812b26"
+            "url": "https://github.com/yxpil/bit/releases/download/v0.5.5/BIT_0.5.5_x64-portable.zip",
+            "hash": "8a159c9a25bc0acee629b40cca914c4628ee6a06f6314645aee3e2f9c02b6d58"
         }
     },
     "bin": "BIT.exe",
     "shortcuts": [
-        ["BIT.exe", "BIT"]
+        [
+            "BIT.exe",
+            "BIT"
+        ]
     ],
     "checkver": "github",
     "autoupdate": {
